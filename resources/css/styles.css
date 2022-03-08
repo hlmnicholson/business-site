@@ -117,7 +117,7 @@ section {
   background-color: white;
 }
 
-#gallery {
+.gallery {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
@@ -125,7 +125,7 @@ section {
   padding: 1% 0;
 }
 
-#gallery > img {
+.gallery > img {
   /* max-width: 30%; */
   max-width: 400px;
   height: auto;

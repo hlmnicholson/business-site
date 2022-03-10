@@ -114,8 +114,7 @@ main {
   background-color: white;
 }
 section {
-  /* margin: 0 5%; */
-  /* padding: 2% 3% 0% 3%; */
+  margin-bottom: 0%;
 }
 
 section > h2 {
@@ -124,37 +123,37 @@ section > h2 {
 
 #mission-statement {
   display: flex;
+  /* border-bottom: 10px solid rgb(254,163,158); */
 }
 
 #mission-statement img {
-  max-width: 700px;
+  max-width: 550px;
   height: 100%;
   /* z-index: 100; */
   /* margin-right: 5%; */
 }
 
 #mission-statement div {
-  padding: 5%;
+  padding: 3% 3% 0 3%;
+  border-bottom: 10px solid rgb(254,163,158); 
+  /* border-left: 10px solid rgb(254,163,158);  */
+
 }
 
-/* .divider {
-  height: 2rem;
-  overflow: hidden;
+#cake-gallery {
+  margin-top: 3%;
 }
 
-.divider > img {
-  width: 100%;
-} */
-
-.gallery {
+.container {
   display: flex;
-  max-width: 100%;
+  /* max-width: 100%; */
   flex-wrap: wrap;
   justify-content: center;
   padding: 1% 0;
+
 }
 
-.gallery > figure > img {
+.container > figure > img {
   /* max-width: 30%; */
 
   height: auto;

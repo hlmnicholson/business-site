@@ -99,26 +99,16 @@ h1 {
 
 h3 {
   font-size: 3rem;
+  color: rgba(73,0,157);
 }
 
 p {
   font-size: 3rem;
   font-weight: 550;
-  /* margin: 0.5% 0 0 0;
-  padding: 1% 1% 0 1%; */
-  /* margin-left: 2.5%;
-  margin-bottom: 0; */
 }
 
 main {
   background-color: white;
-}
-section {
-  margin-bottom: 0%;
-}
-
-section > h2 {
-
 }
 
 #mission-statement {
@@ -140,26 +130,50 @@ section > h2 {
 
 }
 
-#cake-gallery {
-  margin-top: 3%;
+section {
+  display: flex;
+}
+
+.gallery {
+  /* margin-top: 3%; */
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+.cake-info {
+  max-width: 30%;
+  margin-right: 3%;
+}
+
+.staff-info {
+  max-width: 30%;
+  margin-left: 3%;
 }
 
 .container {
   display: flex;
-  /* max-width: 100%; */
+  max-width: 65%;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 1% 0;
-
 }
 
+#cakes {
+  display: flex;
+  max-width: 65%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 3%;
+}
+
+figure {
+  margin: 0;
+  margin-right: 2%;
+}
 .container > figure > img {
   /* max-width: 30%; */
 
   height: auto;
-  margin: 1%;
-}
 
+}
 
 figcaption {
   font-size: 3rem;
@@ -170,8 +184,26 @@ figcaption {
   max-width: 300px;
 }
 
-.staff {
-  width: 500px;
-  border: 2px solid red;
+.bottom {
+  flex-direction: column;
+}
+
+#team {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.staff-member {
+  width: 300px;
+  /* height: 200px;
+  object-fit: cover; */
 
 }
+
+/* .right > figure {
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  border: 2px solid purple;;
+} */

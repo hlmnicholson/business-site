@@ -130,12 +130,9 @@ main {
 
 }
 
-section {
-  display: flex;
-}
-
-.gallery {
+.cake-gallery {
   /* margin-top: 3%; */
+  display: flex;
   justify-content: space-between;
   padding-top: 3%;
 }
@@ -143,17 +140,6 @@ section {
 .cake-info {
   max-width: 30%;
   margin-right: 3%;
-}
-
-.staff-info {
-  max-width: 30%;
-  margin-left: 3%;
-}
-
-.container {
-  display: flex;
-  max-width: 65%;
-  flex-wrap: wrap;
 }
 
 #cakes {
@@ -168,12 +154,6 @@ figure {
   margin: 0;
   margin-right: 2%;
 }
-.container > figure > img {
-  /* max-width: 30%; */
-
-  height: auto;
-
-}
 
 figcaption {
   font-size: 3rem;
@@ -184,18 +164,17 @@ figcaption {
   max-width: 300px;
 }
 
-.bottom {
-  flex-direction: column;
+.team-gallery {
 }
 
 #team {
   display: flex;
-  max-width: 100%;
+  max-width: 90%;
   flex-wrap: wrap;
   justify-content: center;
 }
 .staff-member {
-  width: 300px;
+  max-width: 500px;
   /* height: 200px;
   object-fit: cover; */
 

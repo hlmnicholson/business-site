@@ -11,9 +11,10 @@
     <header>   
       <nav>
         <ul class="ul-container">
-          <li><a href="#">about us</a></li>
-          <li><a href="#">gallery</a></li>
-          <li><a href="#">our bakers</a></li>
+          <li><a href="#about-us">about us</a></li>
+          <li><a href="#cakes">cake gallery</a></li>
+          <li><a href="#our-team">our team</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>  
       </nav>
       <div class="banner">
@@ -24,6 +25,7 @@
     </header>
    <main>
    <section id="mission-statement">
+     <div id="about-us">
         <div>
           <h2>Welcome to our <span style="color:rgb(254,163,158)">sweet</span> fantasy</h2>
          <p>We are an Amsterdam-based cake creator, turning the world of patisserie on it's head!
@@ -31,56 +33,49 @@
             tantilising, ecclectic flavours and artistic talent to help your dream come to life. 
             Whether a small thank you gift or a full wedding cake and favours, we've got you covered.
             Cupcake ipsum dolor sit amet pudding halvah ice cream. Cotton candy cupcake sweet 
-            powder gingerbread chupa chups dessert.
+            powder gingerbread chupa chups dessert...<span style="font-weight: 600; color: rgba(73,0,157); font-style: italic;">we can't wait to be your new <span style="color:rgb(254,163,158)">'crush!</span>
           </p>
-            <h3 style="text-align: right; margin-right: 1%; font-style: italic;">...and we can't wait to be your new <span style="color:rgb(254,163,158)">'crush!</span></h3>
         </div>
-         <img src="./resources/images/cakes/Mars-Bar-Cake-S-01.jpg" alt="">
-
+      </div>
    </section>
-   <section class="cake-gallery">
-    <!-- <h2 style="text-align: center">Our Cakes</h2> -->
-    <div id="cakes">
-      <figure>
-        <img class="cake" src="./resources/images/cakes/Highway-Unicorn-Cake-WEB-01-1170x1658.jpg" alt="">
-        <figcaption>Unicorn Cake</figcaption>
-      </figure>
-      <figure>
-        <img class="cake" src="./resources/images/cakes/Highway-Unicorn-Macarons-WEB-01.jpg" alt="">
-        <figcaption>Unicorn Macarons</figcaption>
-      </figure>
-      <figure>
-        <img class="cake" src="./resources/images/cakes/Kawaii-Cactus-Cake-01-1170x1658.jpg" alt="">
-        <figcaption>Kawaii Cactus Cake</figcaption>
-      </figure>
-      <figure>
-        <img class="cake" src="./resources/images/cakes/Toy-Story-Cupcakes-01-1170x1658.jpg" alt="">
-        <figcaption>Alien Cupcakes</figcaption>
-      </figure>
-      <figure>
-        <img class="cake" src="./resources/images/cakes/Turkish-Delight-Cake-WEB-01.jpg" alt="">
-        <figcaption>Turkish Delight Cake</figcaption>
-      </figure>
-      <figure>
-        <img class="cake" src="./resources/images/cakes/Chocolate-Cupcakes-1170x1658.jpg" alt="">
-        <figcaption>Chocolate Cupcakes</figcaption>
-      </figure>
-   </div>
-   <div class="cake-info">
-    <h2>Our Cakes</h2>
-    <p>
-      Gingerbread lollipop liquorice jelly beans oat cake gummies candy canes biscuit 
-      cheesecake. Gingerbread cotton candy cupcake croissant gummies biscuit icing muffin. 
-      Sesame snaps candy chocolate cake tart sweet roll wafer chocolate cake. Cake chocolate
-       bonbon tart pastry ice cream sweet roll. Pudding fruitcake tiramisu halvah carrot cake
-        muffin sweet. Icing gingerbread tootsie roll carrot cake cupcake pudding jelly-o 
-        soufflé soufflé. Gummies brownie pastry lollipop candy canes cake. Tootsie roll 
-        fruitcake pie fruitcake liquorice chocolate bar. 
-    </p>
-  </div>
+   <section class="gallery">
+      <div id="cakes">
+        <figure>
+          <figcaption>Unicorn Cake</figcaption>
+          <img class="cake" src="./resources/images/cakes/Highway-Unicorn-Cake-WEB-01-1170x1658.jpg" alt="">
+        </figure>
+        <figure>
+          <figcaption>Unicorn Macarons</figcaption>
+          <img class="cake" src="./resources/images/cakes/Highway-Unicorn-Macarons-WEB-01.jpg" alt="">
+        </figure>
+        <figure>
+          <figcaption>Kawaii Cactus Cake</figcaption>
+          <img class="cake" src="./resources/images/cakes/Kawaii-Cactus-Cake-01-1170x1658.jpg" alt="">
+        </figure>
+        <figure>
+          <figcaption>Alien Cupcakes</figcaption>
+          <img class="cake" src="./resources/images/cakes/Toy-Story-Cupcakes-01-1170x1658.jpg" alt="">
+        </figure>
+        <figure>
+          <figcaption>Turkish Delight Cake</figcaption>
+          <img class="cake" src="./resources/images/cakes/Turkish-Delight-Cake-WEB-01.jpg" alt="">
+        </figure>
+        <figure>
+          <figcaption>Chocolate Cupcakes</figcaption>
+          <img class="cake" src="./resources/images/cakes/Chocolate-Cupcakes-1170x1658.jpg" alt="">
+        </figure>
+      </div>
   </section>
-  <section class="team-gallery">
-    <h2>Our Team</h2>
+  <section class="gallery">
+    <div id="our-team">
+    <div class="info">
+      <h2>Our Team</h2>
+      <p>
+        Gingerbread lollipop liquorice jelly beans oat cake gummies candy canes biscuit 
+        cheesecake. Gingerbread cotton candy cupcake croissant gummies biscuit icing muffin. 
+        Sesame snaps candy chocolate cake tart sweet roll wafer chocolate cake.
+      </p>
+    </div>
     <div id="team">
       <figure>
         <img class="staff-member" src="./resources/images/staff/manager.webp" alt="Image of Manager, Susan">
@@ -90,19 +85,21 @@
         <img class="staff-member" src="./resources/images/staff/baker.webp" alt="Image of Head Baker, Thomas">
         <figcaption>Head Baker, Thomas</figcaption>
       </figure>
-      <!-- <figure>
-        <img class="staff-member" src="./resources/images/staff/front-of-house.webp" alt="Image of Front of House, Ben">
-        <figcaption>Front of House, Ben</figcaption>
-      </figure> -->
       <figure>
         <img class="staff-member" src="./resources/images/staff/kitchen-prep.webp" alt="Image of Assistant Baker, Jenny">
         <figcaption>Assistant Baker, Jenny</figcaption>
       </figure>
     </div>
+    </div>
   </section>
   </main>
   <footer>
-    
+    <div id="contact">
+      <h3>Sugarcrush Bakery</h3>
+      <h4>info@sugarcrushbakery.com</h4>
+      <h4>01273-479568</h4>
+      <h4>&copy; Sugarcrush Bakery 2022</h4>
+    </div>
   </footer>
   </body>
 </html>

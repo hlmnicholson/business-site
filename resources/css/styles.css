@@ -5,7 +5,6 @@ html {
      Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
    */
   font-size: 10px;
-  /* background-color: rgb(254,163,158); */
 }
 
 body {
@@ -43,7 +42,10 @@ a:link {
   text-decoration: none; }
 
 
-a:visited { text-decoration: none; }
+a:visited { 
+  color: white;
+  text-decoration: none; 
+}
 
 
 a:hover { 
@@ -102,9 +104,18 @@ h3 {
   color: rgba(73,0,157);
 }
 
+h4 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 3rem;
   font-weight: 550;
+}
+
+figcaption {
+  color: rgba(73,0,157);
+  font-weight: 600;
 }
 
 main {
@@ -113,46 +124,46 @@ main {
 
 #mission-statement {
   display: flex;
-  /* border-bottom: 10px solid rgb(254,163,158); */
+  border-bottom: 4rem solid rgba(254, 163, 158, 0.404); 
+
 }
 
 #mission-statement img {
   max-width: 550px;
   height: 100%;
-  /* z-index: 100; */
-  /* margin-right: 5%; */
 }
 
 #mission-statement div {
   padding: 3% 3% 0 3%;
-  border-bottom: 10px solid rgb(254,163,158); 
-  /* border-left: 10px solid rgb(254,163,158);  */
-
 }
 
-.cake-gallery {
+.gallery {
   /* margin-top: 3%; */
-  display: flex;
-  justify-content: space-between;
   padding-top: 3%;
 }
 
-.cake-info {
-  max-width: 30%;
-  margin-right: 3%;
+.info {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #cakes {
   display: flex;
-  max-width: 65%;
+  max-width: 90%;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-left: 3%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 figure {
   margin: 0;
-  margin-right: 2%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+figcaption {
+  margin: 0 0 2% 0;
 }
 
 figcaption {
@@ -161,28 +172,25 @@ figcaption {
 }
 
 .cake {
-  max-width: 300px;
-}
+  max-width: 350px;
+  margin-bottom: 2%;
 
-.team-gallery {
 }
 
 #team {
   display: flex;
   max-width: 90%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 .staff-member {
   max-width: 500px;
-  /* height: 200px;
-  object-fit: cover; */
-
+  margin-bottom: 2%;
 }
 
-/* .right > figure {
-  width: 500px;
-  height: 200px;
-  overflow: hidden;
-  border: 2px solid purple;;
-} */
+footer {
+  text-align: center;
+  background-color: rgba(254, 163, 158, 0.404);
+  padding: 2% 0;
+}
